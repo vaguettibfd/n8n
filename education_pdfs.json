@@ -1,0 +1,76 @@
+{
+  "artigos": [
+    {
+      "titulo": "Computing Education in the Era of Generative AI",
+      "autor": "Paul Denny et al.",
+      "ano": 2023,
+      "link_pdf": "https://arxiv.org/pdf/2306.02608.pdf"
+    },
+    {
+      "titulo": "Generative AI in Computing Education: Perspectives of Students and Instructors",
+      "autor": "Cynthia Zastudil; Magdalena Rogalska; Christine Kapp; Jennifer Vaughn; Stephen MacNeil",
+      "ano": 2023,
+      "link_pdf": "https://arxiv.org/pdf/2308.04309.pdf"
+    },
+    {
+      "titulo": "Imagining Computing Education Assessment after Generative AI",
+      "autor": "Stephen MacNeil et al.",
+      "ano": 2024,
+      "link_pdf": "https://arxiv.org/pdf/2401.04601.pdf"
+    },
+    {
+      "titulo": "Computing-specific pedagogies and theoretical models",
+      "autor": "Lauri Malmi et al.",
+      "ano": 2024,
+      "link_pdf": "https://arxiv.org/pdf/2409.12245.pdf"
+    },
+    {
+      "titulo": "Blended pedagogy for computer programming language",
+      "autor": "L. Zhang",
+      "ano": 2024,
+      "link_pdf": "https://files.eric.ed.gov/fulltext/EJ1445019.pdf"
+    },
+    {
+      "titulo": "Playful and Meaningful Learning of Programming: What does it take to integrate an app-based game into Early Childhood Education?",
+      "autor": "Linda Barman; Susanne Kjällander",
+      "ano": 2022,
+      "link_pdf": "https://files.eric.ed.gov/fulltext/EJ1370322.pdf"
+    },
+    {
+      "titulo": "Exploring Student Perception and Interactions Using ChatGPT in a Beginner-Level Python Programming Course",
+      "autor": "B. Ma et al.",
+      "ano": 2024,
+      "link_pdf": "https://files.eric.ed.gov/fulltext/ED665431.pdf"
+    },
+    {
+      "titulo": "Mapeamento Sistemático do Ensino Introdutório de Programação",
+      "autor": "R. P. de Moraes et al.",
+      "ano": 2022,
+      "link_pdf": "https://journals-sol.sbc.org.br/index.php/rbie/article/download/2611/2107/12028"
+    },
+    {
+      "titulo": "ProgramSE: Um Jogo para Aprendizagem de Conceitos de Lógica de Programação",
+      "autor": "R. R. Silva et al.",
+      "ano": 2021,
+      "link_pdf": "https://journals-sol.sbc.org.br/index.php/rbie/article/download/2984/2090/11915"
+    },
+    {
+      "titulo": "Panorama Brasileiro do Ensino e Aprendizagem de Programação de Computadores na Educação Básica",
+      "autor": "N. G. Ribeiro; L. O. Martins; J. H. Berssanette",
+      "ano": 2022,
+      "link_pdf": "https://sol.sbc.org.br/index.php/wei/article/download/20843/20669/"
+    },
+    {
+      "titulo": "Uma Revisão Sistemática do Uso da Gamificação no Ensino de Programação",
+      "autor": "K. H. F. de Sousa et al.",
+      "ano": 2021,
+      "link_pdf": "https://sol.sbc.org.br/index.php/sbie/article/download/18077/17911/"
+    },
+    {
+      "titulo": "Robótica Educacional como Facilitadora do Aprendizado de Programação",
+      "autor": "A. C. Sokolonski; J. C. Chagas; L. I. Seman",
+      "ano": 2020,
+      "link_pdf": "https://sol.sbc.org.br/index.php/sbie/article/download/12906/12760/"
+    }
+  ]
+}
