@@ -1,0 +1,34 @@
+{
+  "artigos": [
+    {
+      "titulo": "Trustworthy AI: Deciding What to Decide",
+      "autor": "Caesar Wu, Yuan-Fang Li, Jian Li, Jingjing Xu, Pascal Bouvry",
+      "ano": 2023,
+      "link_pdf": "https://arxiv.org/pdf/2311.12604.pdf"
+    },
+    {
+      "titulo": "Model Access should be a Key Concern in AI Governance",
+      "autor": "E Kembery et al.",
+      "ano": 2024,
+      "link_pdf": "https://arxiv.org/pdf/2412.00836.pdf"
+    },
+    {
+      "titulo": "Open Government Data Programs and Information Privacy Concerns: A Literature Review",
+      "autor": "Mehdi Barati",
+      "ano": 2023,
+      "link_pdf": "https://arxiv.org/pdf/2312.10096.pdf"
+    },
+    {
+      "titulo": "How to Enable Collaboration in Open Government Data Ecosystems",
+      "autor": "J Linåker et al.",
+      "ano": 2022,
+      "link_pdf": "https://arxiv.org/pdf/2208.00305.pdf"
+    },
+    {
+      "titulo": "A framework for systematic analysis of Open Access journals in software engineering and information systems",
+      "autor": "Daniel Graziotin, Xiaofeng Wang, Pekka Abrahamsson",
+      "ano": 2013,
+      "link_pdf": "https://arxiv.org/pdf/1308.2597.pdf"
+    }
+  ]
+}
