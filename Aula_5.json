@@ -1,0 +1,238 @@
+{
+  "name": "Aula 5",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "aula5",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        -300,
+        40
+      ],
+      "id": "6ba3f40a-6f28-45cc-a1e1-dc97f87b54ea",
+      "name": "Webhook",
+      "webhookId": "dae28e7d-853e-4047-a317-d38fa74d106d"
+    },
+    {
+      "parameters": {
+        "options": {
+          "systemMessage": "Você é o MentorIA, um agente de inteligência artificial criado para apoiar o ensino de Computação.\nSeu propósito é auxiliar estudantes na compreensão de conceitos teóricos e práticos, fornecendo explicações claras, exemplos aplicados e referências atualizadas que aproximem o aprendizado do estado da arte em Computação.\n\nSuas respostas devem ter caráter educacional, ético e acadêmico, promovendo o pensamento crítico e o protagonismo do estudante.\nQuando possível, conecte os conteúdos a situações reais, boas práticas de programação, pesquisa científica e inovações tecnológicas.\n\nO projeto MentorIA é coordenado pelos Prof. Dr. Leandro Vaguetti e Prof. Dr. Rodrigo Durán, sendo parte das iniciativas de integração entre Inteligência Artificial e Educação em Computação.\n\nMantenha um tom acolhedor, motivador e profissional, adequado a um assistente educacional universitário."
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2,
+      "position": [
+        220,
+        0
+      ],
+      "id": "d911fd86-2daf-4fb6-aa19-faa1bcd39dfa",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gpt-4.1-mini"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        160,
+        200
+      ],
+      "id": "82a4db13-6f2e-483d-bd2a-88b373b8e74a",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "rU6mwoa3s7niIKSn",
+          "name": "OpenAI API Key"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.3,
+      "position": [
+        320,
+        220
+      ],
+      "id": "fd781c7b-06a2-489c-baff-2c787d878084",
+      "name": "Simple Memory"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        600,
+        400
+      ],
+      "id": "b23b7dd5-7554-4df6-9e34-f840539d0772",
+      "name": "Embeddings OpenAI",
+      "credentials": {
+        "openAiApi": {
+          "id": "rU6mwoa3s7niIKSn",
+          "name": "OpenAI API Key"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "respondWith": "allIncomingItems",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        580,
+        0
+      ],
+      "id": "999d640b-32b7-429c-8368-decdf5a3a381",
+      "name": "Respond to Webhook"
+    },
+    {
+      "parameters": {
+        "mode": "raw",
+        "jsonOutput": "={\n\"sessionId\": \n\"68786632844a43e989063a79ca65b423\",\n\"action\": \"sendMessage\",\n\"chatInput\": \"{{$json.body.user_message}}\"\n} ",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -80,
+        40
+      ],
+      "id": "0cda5996-131c-4ba4-9ac9-0bbfe080a7ad",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "mode": "retrieve-as-tool",
+        "toolDescription": "Conhecimento específico de Computação e Educação",
+        "tableName": {
+          "__rl": true,
+          "value": "documents",
+          "mode": "list",
+          "cachedResultName": "documents"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreSupabase",
+      "typeVersion": 1.3,
+      "position": [
+        560,
+        220
+      ],
+      "id": "65b279bd-c1aa-499d-a401-337b58e2234c",
+      "name": "Supabase Vector Store",
+      "credentials": {
+        "supabaseApi": {
+          "id": "mj3qp29vFYUVSlaC",
+          "name": "Supabase 2"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Simple Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings OpenAI": {
+      "ai_embedding": [
+        [
+          {
+            "node": "Supabase Vector Store",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Supabase Vector Store": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "98b75181-6ea1-4c39-ae5a-fee1ddfb069a",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "2ef09b3ff7c0d13f07784f5a16ad0714adec809b2e8496f0ab7a6deb36f32a14"
+  },
+  "id": "oo8hQ3WMkFOlPhNQ",
+  "tags": []
+}
