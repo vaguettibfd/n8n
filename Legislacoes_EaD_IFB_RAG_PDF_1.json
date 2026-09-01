@@ -1,0 +1,382 @@
+[
+  {
+    "titulo": "Portaria MEC nº 381, de 20 de maio de 2025",
+    "autor": "Ministério da Educação (MEC)",
+    "ano": 2025,
+    "url_pdf": "https://www.gov.br/mec/pt-br/politica-regulacao-supervisao-educacao-superior/PORTARIAMECN381.pdf",
+    "resumo": "Dispõe sobre as regras de transição para a aplicação do Decreto nº 12.456/2025 e estabelece o calendário de processos regulatórios no Sistema e-MEC para 2025.",
+    "data_insercao": "2026-08-31T17:54:00-03:00",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": {
+      "tema": [
+        "educacao_a_distancia",
+        "regulacao",
+        "ensino_superior"
+      ],
+      "nivel": "institucional",
+      "idioma": "pt",
+      "contexto_educacional": "ensino_superior",
+      "tipo_documento": "portaria",
+      "fonte": "gov.br/mec",
+      "licenca": "documento_publico",
+      "categoria": "legislacao_externa",
+      "situacao_link": "confirmado",
+      "tipo_recurso": "pdf_direto"
+    }
+  },
+  {
+    "titulo": "Referenciais de Qualidade de Cursos de Graduação com Oferta a Distância",
+    "autor": "Ministério da Educação (MEC)",
+    "ano": 2025,
+    "url_pdf": "https://www.ifmg.edu.br/portal/educacao-a-distancia/legislacao-normas-e-materiais/legislacao-da-ead/referenciais-de-qualidade-de-cursos-de-graduacao-com-oferta-a-distancia.pdf",
+    "resumo": "Referenciais de qualidade publicados no contexto do novo marco regulatório da educação a distância em 2025. O link utilizado é uma cópia institucional hospedada pelo IFMG.",
+    "data_insercao": "2026-08-31T17:54:00-03:00",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": {
+      "tema": [
+        "educacao_a_distancia",
+        "qualidade",
+        "ensino_superior"
+      ],
+      "nivel": "institucional",
+      "idioma": "pt",
+      "contexto_educacional": "ensino_superior",
+      "tipo_documento": "referencial",
+      "fonte": "ifmg.edu.br",
+      "licenca": "documento_publico",
+      "categoria": "legislacao_externa",
+      "situacao_link": "confirmado",
+      "observacao": "Cópia institucional; preferir URL oficial do MEC se disponibilizada de forma estável.",
+      "tipo_recurso": "pdf_direto"
+    }
+  },
+  {
+    "titulo": "Portaria MEC nº 378, de 19 de maio de 2025",
+    "autor": "Ministério da Educação (MEC)",
+    "ano": 2025,
+    "url_pdf": "https://cfbm.gov.br/wp-content/uploads/2025/05/PORTARIA-MEC-No-378-DE-19-DE-MAIO-DE-2025-PORTARIA-MEC-No-378-DE-19-DE-MAIO-DE-2025-DOU-Imprensa-Nacional.pdf",
+    "resumo": "Dispõe sobre os formatos de oferta dos cursos superiores de graduação.",
+    "data_insercao": "2026-08-31T17:54:00-03:00",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": {
+      "tema": [
+        "educacao_a_distancia",
+        "regulacao",
+        "graduacao"
+      ],
+      "nivel": "institucional",
+      "idioma": "pt",
+      "contexto_educacional": "ensino_superior",
+      "tipo_documento": "portaria",
+      "fonte": "abmes.org.br",
+      "licenca": "documento_publico",
+      "categoria": "legislacao_externa",
+      "situacao_link": "confirmado",
+      "observacao": "Página de referência; recomenda-se substituir por link direto do MEC/DOU quando disponível.",
+      "tipo_recurso": "pdf_direto"
+    }
+  },
+  {
+    "titulo": "Decreto nº 12.456, de 19 de maio de 2025",
+    "autor": "Presidência da República",
+    "ano": 2025,
+    "url_pdf": "",
+    "resumo": "Dispõe sobre a oferta de educação a distância por instituições de educação superior em cursos de graduação e altera o Decreto nº 9.235/2017.",
+    "data_insercao": "2026-08-31T17:54:00-03:00",
+    "status": "Revisar",
+    "embedding_status": "pending",
+    "metadata": {
+      "tema": [
+        "educacao_a_distancia",
+        "regulacao",
+        "ensino_superior"
+      ],
+      "nivel": "institucional",
+      "idioma": "pt",
+      "contexto_educacional": "ensino_superior",
+      "tipo_documento": "decreto",
+      "fonte": "planalto.gov.br",
+      "licenca": "documento_publico",
+      "categoria": "legislacao_externa",
+      "situacao_link": "nao_confirmado",
+      "tipo_recurso": "pdf_pendente",
+      "observacao": "PDF direto ainda não confirmado; não utilizar na ingestão automática até revisão. URL anterior removida por não estar confirmada como download binário direto de PDF.",
+      "validacao_rag": "Não ingerir automaticamente"
+    }
+  },
+  {
+    "titulo": "Portaria MEC nº 514, de 4 de junho de 2024",
+    "autor": "Ministério da Educação (MEC)",
+    "ano": 2024,
+    "url_pdf": "https://abmes.org.br/arquivos/legislacoes/Portaria-mec-514-2024-06-04.pdf",
+    "resumo": "Aprova a 4ª edição do Catálogo Nacional de Cursos Superiores de Tecnologia - CNCST e a incorporação de Áreas Tecnológicas aos Eixos Tecnológicos do CNCST e do CNCT.",
+    "data_insercao": "2026-08-31T17:54:00-03:00",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": {
+      "tema": [
+        "educacao_profissional",
+        "cursos_superiores_de_tecnologia",
+        "cncst"
+      ],
+      "nivel": "institucional",
+      "idioma": "pt",
+      "contexto_educacional": "ensino_superior",
+      "tipo_documento": "portaria",
+      "fonte": "in.gov.br",
+      "licenca": "documento_publico",
+      "categoria": "legislacao_externa",
+      "situacao_link": "confirmado",
+      "tipo_recurso": "pdf_direto",
+      "validacao_rag": "PDF direto verificado"
+    }
+  },
+  {
+    "titulo": "Parecer CNE/CP nº 4/2024",
+    "autor": "Conselho Nacional de Educação (CNE)",
+    "ano": 2024,
+    "url_pdf": "",
+    "resumo": "Trata das Diretrizes Curriculares Nacionais para a Formação Inicial em Nível Superior de Profissional do Magistério da Educação Escolar Básica.",
+    "data_insercao": "2026-08-31T17:54:00-03:00",
+    "status": "Revisar",
+    "embedding_status": "pending",
+    "metadata": {
+      "tema": [
+        "formacao_docente",
+        "diretrizes_curriculares",
+        "educacao_superior"
+      ],
+      "nivel": "institucional",
+      "idioma": "pt",
+      "contexto_educacional": "formacao_docente",
+      "tipo_documento": "parecer",
+      "fonte": "gov.br/mec",
+      "licenca": "documento_publico",
+      "categoria": "legislacao_externa",
+      "situacao_link": "nao_confirmado",
+      "observacao": "Link para a página oficial do CNE que reúne o parecer e documentos relacionados. URL anterior removida por não estar confirmada como download binário direto de PDF.",
+      "tipo_recurso": "pdf_pendente",
+      "validacao_rag": "Não ingerir automaticamente"
+    }
+  },
+  {
+    "titulo": "Súmula do Parecer CNE/CES nº 576/2023",
+    "autor": "Conselho Nacional de Educação (CNE)",
+    "ano": 2023,
+    "url_pdf": "",
+    "resumo": "Referência citada no documento original. O link oficial individual deve ser confirmado antes da ingestão.",
+    "data_insercao": "2026-08-31T17:54:00-03:00",
+    "status": "Revisar",
+    "embedding_status": "pending",
+    "metadata": {
+      "tema": [
+        "extensao",
+        "educacao_a_distancia",
+        "ensino_superior"
+      ],
+      "nivel": "institucional",
+      "idioma": "pt",
+      "contexto_educacional": "ensino_superior",
+      "tipo_documento": "parecer",
+      "fonte": "gov.br/mec",
+      "licenca": "documento_publico",
+      "categoria": "legislacao_externa",
+      "situacao_link": "nao_confirmado",
+      "observacao": "O documento-base informa que o parecer ainda não estava disponível na página; requer nova verificação. PDF direto ainda não confirmado; não utilizar na ingestão automática até revisão. URL anterior removida por não estar confirmada como download binário direto de PDF.",
+      "tipo_recurso": "pdf_pendente",
+      "validacao_rag": "Não ingerir automaticamente"
+    }
+  },
+  {
+    "titulo": "Lei nº 14.533, de 11 de janeiro de 2023",
+    "autor": "Presidência da República",
+    "ano": 2023,
+    "url_pdf": "https://www2.camara.leg.br/legin/fed/lei/2023/lei-14533-11-janeiro-2023-793686-normaatualizada-pl.pdf",
+    "resumo": "Institui a Política Nacional de Educação Digital e altera a LDB e outras leis.",
+    "data_insercao": "2026-08-31T17:54:00-03:00",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": {
+      "tema": [
+        "educacao_digital",
+        "politica_publica",
+        "educacao"
+      ],
+      "nivel": "institucional",
+      "idioma": "pt",
+      "contexto_educacional": "geral",
+      "tipo_documento": "lei",
+      "fonte": "planalto.gov.br",
+      "licenca": "documento_publico",
+      "categoria": "legislacao_externa",
+      "situacao_link": "confirmado",
+      "tipo_recurso": "pdf_direto"
+    }
+  },
+  {
+    "titulo": "Resolução CNE/CP nº 1, de 5 de janeiro de 2021",
+    "autor": "Conselho Nacional de Educação (CNE)",
+    "ano": 2021,
+    "url_pdf": "https://www.ifmg.edu.br/portal/educacao-a-distancia/legislacao-normas-e-materiais/legislacao-da-ead/resolucao-cne-cp-no-1-de-2021-define-as-diretrizes-curriculares-nacionais-gerais-para-a-educacao-profissional-e-tecnologica.pdf",
+    "resumo": "Define as Diretrizes Curriculares Nacionais Gerais para a Educação Profissional e Tecnológica.",
+    "data_insercao": "2026-08-31T17:54:00-03:00",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": {
+      "tema": [
+        "educacao_profissional",
+        "educacao_tecnologica",
+        "educacao_a_distancia"
+      ],
+      "nivel": "institucional",
+      "idioma": "pt",
+      "contexto_educacional": "educacao_profissional",
+      "tipo_documento": "resolucao",
+      "fonte": "ifmg.edu.br",
+      "licenca": "documento_publico",
+      "categoria": "legislacao_externa",
+      "situacao_link": "confirmado",
+      "observacao": "Cópia institucional da resolução."
+    }
+  },
+  {
+    "titulo": "Portaria CAPES nº 90, de 24 de abril de 2019",
+    "autor": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)",
+    "ano": 2019,
+    "url_pdf": "",
+    "resumo": "Dispõe sobre os programas de pós-graduação stricto sensu na modalidade de educação a distância.",
+    "data_insercao": "2026-08-31T17:54:00-03:00",
+    "status": "Revisar",
+    "embedding_status": "pending",
+    "metadata": {
+      "tema": [
+        "educacao_a_distancia",
+        "pos_graduacao",
+        "stricto_sensu"
+      ],
+      "nivel": "institucional",
+      "idioma": "pt",
+      "contexto_educacional": "pos_graduacao",
+      "tipo_documento": "portaria",
+      "fonte": "capes.gov.br",
+      "licenca": "documento_publico",
+      "categoria": "legislacao_externa",
+      "situacao_link": "nao_confirmado",
+      "tipo_recurso": "pdf_pendente",
+      "observacao": "PDF direto ainda não confirmado; não utilizar na ingestão automática até revisão. URL anterior removida por não estar confirmada como download binário direto de PDF.",
+      "validacao_rag": "Não ingerir automaticamente"
+    }
+  },
+  {
+    "titulo": "Portaria Normativa MEC nº 742, de 2 de agosto de 2018",
+    "autor": "Ministério da Educação (MEC)",
+    "ano": 2018,
+    "url_pdf": "",
+    "resumo": "Altera a Portaria Normativa nº 23/2017 e inclui regras relativas à oferta de atividades presenciais em cursos EaD.",
+    "data_insercao": "2026-08-31T17:54:00-03:00",
+    "status": "Revisar",
+    "embedding_status": "pending",
+    "metadata": {
+      "tema": [
+        "educacao_a_distancia",
+        "regulacao",
+        "atividades_presenciais"
+      ],
+      "nivel": "institucional",
+      "idioma": "pt",
+      "contexto_educacional": "ensino_superior",
+      "tipo_documento": "portaria_normativa",
+      "fonte": "abmes.org.br",
+      "licenca": "documento_publico",
+      "categoria": "legislacao_externa",
+      "situacao_link": "nao_confirmado",
+      "observacao": "Página de referência; recomenda-se preferir DOU/MEC quando houver URL estável. PDF direto ainda não confirmado; não utilizar na ingestão automática até revisão. URL anterior removida por não estar confirmada como download binário direto de PDF.",
+      "tipo_recurso": "pdf_pendente",
+      "validacao_rag": "Não ingerir automaticamente"
+    }
+  },
+  {
+    "titulo": "Resolução CNE/CEB nº 6, de 20 de setembro de 2012",
+    "autor": "Conselho Nacional de Educação (CNE)",
+    "ano": 2012,
+    "url_pdf": "https://abmes.org.br/arquivos/legislacoes/Res-CEB-006-2012-09-20.pdf",
+    "resumo": "Define Diretrizes Curriculares Nacionais para a Educação Profissional Técnica de Nível Médio.",
+    "data_insercao": "2026-08-31T17:54:00-03:00",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": {
+      "tema": [
+        "educacao_profissional",
+        "ensino_tecnico",
+        "diretrizes_curriculares"
+      ],
+      "nivel": "institucional",
+      "idioma": "pt",
+      "contexto_educacional": "educacao_profissional",
+      "tipo_documento": "resolucao",
+      "fonte": "mec.gov.br",
+      "licenca": "documento_publico",
+      "categoria": "legislacao_externa",
+      "situacao_link": "confirmado",
+      "tipo_recurso": "pdf_direto",
+      "validacao_rag": "PDF direto verificado"
+    }
+  },
+  {
+    "titulo": "Resolução CNE/CEB nº 3, de 21 de novembro de 2018",
+    "autor": "Conselho Nacional de Educação (CNE)",
+    "ano": 2018,
+    "url_pdf": "",
+    "resumo": "Atualiza as Diretrizes Curriculares Nacionais para o Ensino Médio.",
+    "data_insercao": "2026-08-31T17:54:00-03:00",
+    "status": "Revisar",
+    "embedding_status": "pending",
+    "metadata": {
+      "tema": [
+        "ensino_medio",
+        "diretrizes_curriculares"
+      ],
+      "nivel": "institucional",
+      "idioma": "pt",
+      "contexto_educacional": "educacao_basica",
+      "tipo_documento": "resolucao",
+      "fonte": "in.gov.br",
+      "licenca": "documento_publico",
+      "categoria": "legislacao_externa",
+      "situacao_link": "nao_confirmado",
+      "tipo_recurso": "pdf_pendente",
+      "observacao": "PDF direto ainda não confirmado; não utilizar na ingestão automática até revisão. URL anterior removida por não estar confirmada como download binário direto de PDF.",
+      "validacao_rag": "Não ingerir automaticamente"
+    }
+  },
+  {
+    "titulo": "Resolução CNE/CES nº 1, de 6 de abril de 2018",
+    "autor": "Conselho Nacional de Educação (CNE)",
+    "ano": 2018,
+    "url_pdf": "https://www.ufsm.br/orgaos-suplementares/nte/wp-content/uploads/sites/358/2019/01/Resolucao-ces001_18.pdf",
+    "resumo": "Estabelece diretrizes e normas para a oferta dos cursos de pós-graduação lato sensu denominados cursos de especialização.",
+    "data_insercao": "2026-08-31T17:54:00-03:00",
+    "status": "Pendente",
+    "embedding_status": "pending",
+    "metadata": {
+      "tema": [
+        "pos_graduacao",
+        "lato_sensu",
+        "especializacao"
+      ],
+      "nivel": "institucional",
+      "idioma": "pt",
+      "contexto_educacional": "pos_graduacao",
+      "tipo_documento": "resolucao",
+      "fonte": "mec.gov.br",
+      "licenca": "documento_publico",
+      "categoria": "legislacao_externa",
+      "situacao_link": "confirmado",
+      "tipo_recurso": "pdf_direto",
+      "validacao_rag": "PDF direto verificado"
+    }
+  }
+]
